@@ -1,10 +1,14 @@
 {
-  "name": "installer",
+  "name": "din",
   "version": "1.0.0",
-  "description": "",
+  "description": "DIN: Dependency Installer for Node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcmznt/dependency-installer-for-node/"
+  },
   "main": "./lib/installer.js",
   "bin": {
-    "installer": "./bin/index.js"
+    "din": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
