@@ -1,5 +1,5 @@
 {
-  "name": "din",
+  "name": "dependency-installer-for-node",
   "version": "1.0.0",
   "description": "DIN: Dependency Installer for Node",
   "repository": {
