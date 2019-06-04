@@ -1,6 +1,6 @@
 {
   "name": "dependency-installer-for-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DIN: Dependency Installer for Node",
   "repository": {
     "type": "git",
