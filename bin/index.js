@@ -1,26 +1,5 @@
 #!/usr/bin/env node
+const pms = require('../lib/package-managers.json')
 const installer = require('../lib/installer.js')
 
-installer([
-  {
-    name: 'npm',
-    cli: 'npm',
-    args: ['install'],
-    lockFile: 'package-lock.json',
-    installer: 'npm install npm@latest -g'
-  },
-  {
-    name: 'yarn',
-    cli: 'yarn',
-    args: ['install'],
-    lockFile: 'yarn.lock',
-    installer: 'curl -o- -L https://yarnpkg.com/install.sh | bash'
-  },
-  {
-    name: 'pnpm',
-    cli: 'pnpm',
-    args: ['install'],
-    lockFile: 'pnpm-lock.yaml',
-    installer: 'curl -L https://unpkg.com/@pnpm/self-installer | node'
-  }
-])
+installer(pms)
